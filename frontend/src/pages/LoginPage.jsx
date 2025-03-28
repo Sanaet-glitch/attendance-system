@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { login, setToken } from '../api'; // Adjust the path as necessary
+import api, { login, setToken } from '../../api'; // Adjust the path as necessary
 
 function LoginPage() {
   const [username, setUsername] = useState('');
